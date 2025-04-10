@@ -2,6 +2,7 @@
 managers_data <- read.csv("C:\\Users\\VigneshChalla-STUDEN\\OneDrive - Atlantic TU\\Documents\\week1-datascience\\managers.csv")
 View(managers_data)
 
+
 managers_data
 # Use na.omit() to store any full rows into new_data data frame
 new_data <- na.omit(managers_data)

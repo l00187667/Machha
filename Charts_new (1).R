@@ -16,7 +16,7 @@ plot(drugs)
 # Show drugs data with circles for data points, joined with 
 # a blue line
 attach(drugs)
-#windows(16,10)
+windows(16,10)
 plot(dose, type = "o", col = "blue")
 plot(dose, type = "b", col = "green")
 
